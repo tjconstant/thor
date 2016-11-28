@@ -1,0 +1,14 @@
+Package: thor
+Type: Package
+Title: Thorlabs Optics and Equipment Curves
+Version: 0.1.0
+Authors@R: person("Tom", "Constant", email = "t.j.constant@gmail.com",
+  role = c("aut", "cre"))
+Description: This package contains various functions for estimating Thorlab products operating parameters.
+    Example indlude transmission of filters for given wavelengths, or powers incident on detecors for given output voltages.
+License: GPL-2
+Depends: R (>= 2.10)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports: stats
