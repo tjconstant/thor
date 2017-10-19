@@ -18,4 +18,3 @@ Transmission from Thorlabs longpass filter number FEL0550 given wavelength
 \examples{
 FEL0550(570)
 }
-

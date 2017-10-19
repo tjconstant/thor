@@ -2,4 +2,5 @@
 
 export(APD120A2)
 export(FEL0550)
+export(FEL0600)
 export(FES0550)
