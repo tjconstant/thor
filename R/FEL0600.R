@@ -9,8 +9,8 @@
 #' FEL0600(620)
 FEL0600 <- function(wavelength_nm){
 
-  FEL0550_Transmission <- FEL0600_data # from manual
-  FEL0550_Transmission_Function <- stats::splinefun(FEL0600_Transmission$wavelength_nm, FEL0600_Transmission$Transmission)
+  FEL0600_Transmission <- FEL0600_data # from manual
+  FEL0600_Transmission_Function <- stats::splinefun(FEL0600_Transmission$wavelength_nm, FEL0600_Transmission$Transmission)
 
   if(max(wavelength_nm) > max(FEL0600_Transmission$wavelength_nm) | min(wavelength_nm) < min(FEL0600_Transmission$wavelength_nm)){
     warning("wavelength is outside dataset range")
