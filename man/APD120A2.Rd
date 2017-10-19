@@ -21,4 +21,3 @@ Power from Thorlabs Avalanche PhotoDetector Number APD120A2 for a given signal v
 APD120A2(10)
 
 }
-

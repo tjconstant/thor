@@ -18,4 +18,3 @@ Transmission from Thorlabs shortpass filter number FES0550 given wavelength
 \examples{
 FES0550(570)
 }
-
